@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: n8n
+    env: docker
+    plan: free
+    dockerfilePath: ./docker/images/n8n/Dockerfile
+    envVars:
+      - key: N8N_BASIC_AUTH_ACTIVE
+        value: "true"
+      - key: N8N_BASIC_AUTH_USER
+        value: "saqlain"
+      - key: N8N_BASIC_AUTH_PASSWORD
+        value: "amjad243hq"
+      
