@@ -11,4 +11,6 @@ services:
         value: "saqlain"
       - key: N8N_BASIC_AUTH_PASSWORD
         value: "amjad243hq"
+			- key: WEBHOOK_URL
+        value: https://n8n-b5ez.onrender.com
       
