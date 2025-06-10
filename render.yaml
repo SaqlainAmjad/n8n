@@ -12,5 +12,17 @@ services:
       - key: N8N_BASIC_AUTH_PASSWORD
         value: "amjad243hq"
 			- key: WEBHOOK_URL
-        value: https://n8n-b5ez.onrender.com
+        value: "https://n8n-b5ez.onrender.com"
+			- key: DB_TYPE
+        value: "postgresdb"
+      - key: DB_POSTGRESDB_HOST
+        value: "dpg-d13u3bi4d50c73ebmngg-a"
+      - key: DB_POSTGRESDB_PORT
+        value: "5432"
+      - key: DB_POSTGRESDB_DATABASE
+        value: "n8n_db_p94z"
+      - key: DB_POSTGRESDB_USER
+        value: "n8n_db_p94z_user"
+      - key: DB_POSTGRESDB_PASSWORD
+        value: "rBji6E69ABEVo5CHUEUMEB4INtQLl90q"
       
